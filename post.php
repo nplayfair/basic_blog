@@ -29,6 +29,7 @@
             <p><?php echo $post['body']; ?></p>
         </div>
         <br>
-
+        <a href="<?php echo ROOT_URL; ?>editpost.php?id=<?php echo $post['id']; ?>"
+        class="btn btn-secondary">Edit</a>
     </div>
 <?php include('inc/footer.php'); ?>
